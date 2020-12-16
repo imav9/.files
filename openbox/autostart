@@ -1,0 +1,6 @@
+picom -b &
+tint2 &
+feh --bg-scale ~/.wallpaper.jpg &
+setxkbmap -option caps:backspace &
+setxkbmap -option shift:both_capslock &
+xmodmap -e "clear Lock"
